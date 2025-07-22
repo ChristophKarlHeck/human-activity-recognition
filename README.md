@@ -14,3 +14,13 @@
   publisher={ACM New York, NY, USA}
 }
 ```
+
+## Clean original file:
+
+```
+with open('WISDM_ar_v1.1_raw.txt', 'r') as infile, open('WISDM_cleaned.txt', 'w') as outfile:
+    for line in infile:
+        fields = [f.strip() for f in line.strip().replace(';','').split(',')]
+        if len(fields) == 6:
+            outfile.write(','.join(fields) + '\n')
+```
