@@ -1,10 +1,3 @@
-```python
-#   This software component is licensed by ST under BSD-3-Clause license,
-#   the "License"; You may not use this file except in compliance with the
-#   License. You may obtain a copy of the License at:
-#             https://opensource.org/licenses/BSD-3-Clause
-```
-
 # Human Activity Recognition
 
 This notebook is an adaptation of ![ STMicroelectronics' Human Activity Recognition notebook](https://github.com/STMicroelectronics/stm32ai-wiki/blob/master/AI_resources/HAR/Human_Activity_Recognition.ipynb). It demonstrates the process of creating a basic motion sensing activity classifier using Keras and TensorFlow Lite, tailored for deployment in the ![WalkRunClassifier Android app](https://github.com/ChristophKarlHeck/walk-run-classifier).
