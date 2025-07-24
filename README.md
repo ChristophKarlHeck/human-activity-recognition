@@ -1,6 +1,6 @@
 # Human Activity Recognition
 
-This notebook is an adaptation of ![ STMicroelectronics' Human Activity Recognition notebook](https://github.com/STMicroelectronics/stm32ai-wiki/blob/master/AI_resources/HAR/Human_Activity_Recognition.ipynb). It demonstrates the process of creating a basic motion sensing activity classifier using Keras and TensorFlow Lite, tailored for deployment in the ![WalkRunClassifier Android app](https://github.com/ChristophKarlHeck/walk-run-classifier).
+This notebook uses data from, and is an adaptation of, ![ STMicroelectronics' Human Activity Recognition notebook](https://github.com/STMicroelectronics/stm32ai-wiki/blob/master/AI_resources/HAR/Human_Activity_Recognition.ipynb). It demonstrates the process of creating a basic motion sensing activity classifier using Keras and TensorFlow Lite, tailored for deployment in the ![WalkRunClassifier Android app](https://github.com/ChristophKarlHeck/walk-run-classifier).
 
 ## Import TensorFlow
 
