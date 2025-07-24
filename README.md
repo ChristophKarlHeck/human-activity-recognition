@@ -5,11 +5,9 @@
 #             https://opensource.org/licenses/BSD-3-Clause
 ```
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/STMicroelectronics/stm32ai/blob/master/AI_resources/HAR/Human_Activity_Recognition.ipynb)
-
 # Human Activity Recognition
 
-This notebook shows the process of creating a basic motion sensing activity classifier model, using Keras and TensorFlow Lite, for the Android App (https://github.com/ChristophKarlHeck/walk-run-classifier).
+This notebook is an adaptation of ![ STMicroelectronics' Human Activity Recognition notebook](https://github.com/STMicroelectronics/stm32ai-wiki/blob/master/AI_resources/HAR/Human_Activity_Recognition.ipynb). It demonstrates the process of creating a basic motion sensing activity classifier using Keras and TensorFlow Lite, tailored for deployment in the ![WalkRunClassifier Android app](https://github.com/ChristophKarlHeck/walk-run-classifier).
 
 ## Import TensorFlow
 
@@ -300,3 +298,12 @@ with open('model.tflite', 'wb') as f:
     f.write(tflite_model)
 ```
 
+## Third-Party Notices
+This project includes data and adapted content from:
+
+**STMicroelectronics – Human Activity Recognition notebook**  
+Licensed under the BSD 3-Clause License  
+[https://opensource.org/licenses/BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+
+Original source:  
+https://github.com/STMicroelectronics/stm32ai-wiki/blob/master/AI_resources/HAR/Human_Activity_Recognition.ipynb
